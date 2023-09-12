@@ -4,5 +4,5 @@ from datetime import datetime, timedelta
 
 current_datetime = datetime(2021, 7, 8)
 time_minus_15days = current_datetime - timedelta(days = 15)
-reformat = time_minus_15days.strftime('%x')
+reformat = time_minus_15days.strftime('%Y-%m-%d')
 print(reformat)
